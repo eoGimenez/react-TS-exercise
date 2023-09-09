@@ -5,6 +5,7 @@ interface InputProps {
     placeholder: string,
     handleChange: ChangeEventHandler<HTMLInputElement>
     name: string
+
 }
 
 export default function Input ({placeholder, handleChange, name, value}: InputProps) {
@@ -14,6 +15,7 @@ export default function Input ({placeholder, handleChange, name, value}: InputPr
         name={name}
         placeholder={placeholder}
         onChange={handleChange}
+        
         />
     )
 }
